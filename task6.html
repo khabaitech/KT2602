@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw</title>
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+      }
+      body {
+        
+        height: 100vh;
+        width: 100vw;
+        transform: translate(0%);
+      }
+      .car {
+        height: 300px;
+        width: 300px;
+       
+        animation: BMW 10s infinite linear ;
+         position: absolute;
+      }
+      @keyframes BMW{
+        0%{
+            top: 45vh;
+            left: 0%;
+        }
+        100%{
+            top: 45vh;
+            left: 100vw;
+        }
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .img{
+        height: 100vh;
+        width: 100vw;
+      }
+      h1{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: navy;
+        animation: bos 10s infinite linear;
+      }
+      @keyframes bos{
+        0%{
+            left: 44%;
+            transform: scale(1.5);
+        }
+        100%{
+            left: 44%;
+            transform: scale(6.5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+     <div class="img">
+        <img src="road.webp" alt="background">
+    <div class="car">
+      <img src="car.gif" alt="BMW" />
+    </div>
+   
+       
+    </div>
+    <h1>
+        <center>
+        RUNNING CAR
+        </center>
+    </h1>
+  </body>
+</html>

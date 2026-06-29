@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Testimonials</title>
+    <style>
+      .carousel-inner{
+          height: 100vh;
+          width: 100vw;
+      }
+      .carousel-item{
+          height: 300px;
+          width: 300px;
+          position: absolute;
+          top: 15vh;
+          left:37vw;
+         border: 5px double wheat;
+         border-radius: 50%;
+      }
+      img{
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+      }
+      #p1{
+          color: cyan;
+          font-size: 18px;
+          text-align: center;
+      }
+      .text-brand{
+          position: absolute;
+          color: crimson;
+           text-align: center;
+           font-size: 33px;
+           font-family: 'Courier New', Courier, monospace;
+      }
+      h5{
+          position: absolute;
+          color: azure;
+           text-align: center;
+           font-size: 29px;
+           font-family: 'Courier New', Courier, monospace;
+      }
+      }
+    </style>
+  </head>
+  <body background="photo-1478760329108-5c3ed9d495a0.jpg">
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQk3Fr8J-texWOnlHBivcmDRUVqHlXt6_5p2SI-TUEGgx8-nW_WWm-ifs&s=10"
+            class="d-block w-40"
+            alt="..."
+          />
+
+          <p id="p1">
+            I have always appreciated smart workers but my thoughts transformed
+            after meeting this guy. 
+            He is a devoted and smart coder. He has got patience like the
+            mountains.
+          </p>
+          <h4>
+            <span class="text-brand"><b>PRINCE CHAUHAN</b></span>
+          </h4>
+          <br />
+          <br />
+          <h5>CEO, Khabai Tech</h5>
+        </div>
+        <div class="carousel-item">
+          <img src="asis gautam.jpeg" class="d-block w-100" alt="..." />
+          <p id="p1">
+            Designed and implemented comprehensive lesson plans aligning with
+            the established curriculum 
+            frameworks and specific learning objectives."
+          </p>
+          <h4>
+            <span class="text-brand"><b>Ashish Gautam</b></span>
+          </h4>
+          <br />
+          <br />
+          <h5 style="font-size: 30px;"> Khabai Tech</h5>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </body>
+</html>

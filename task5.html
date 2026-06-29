@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      body {
+        background: linear-gradient(white, red, skyblue, blue, white);
+        height: 100vh;
+        width: 100vw;
+      }
+      div.animation {
+        border: 5px solid palevioletred;
+        color: white;
+        height: 50px;
+        width: 100px;
+        background-color: rgb(12, 114, 202);
+        animation: sahil 20s infinite ease-in;
+        position: absolute;
+      }
+
+      @keyframes sahil {
+        0% {
+          top: 0px;
+          left: 0px;
+          background-color: black;
+        }
+        25% {
+          top: 0px;
+          left: 1420px;
+          background-color: brown;
+        }
+        50% {
+          top: 669px;
+          left: 0px;
+          background-color: darkblue;
+        }
+        75% {
+          top: 669px;
+          left: 1420px;
+          background-color: chartreuse;
+        }
+        100% {
+          top: 0px;
+          left: 0px;
+          background-color: midnightblue;
+        }
+      }
+      div.two{
+        transform: scale(2.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animation">
+      <p>computer science and enggineering.</p>
+    </div>
+    <div class="two">
+        <center>
+        <p>
+            The Animation Project
+        </p>
+        </center>
+    </div>
+  </body>
+</html>
